@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 110" fill="none">
+  <!-- Diagonal symbol -->
+  <g transform="translate(10, 10)">
+    <rect x="0" y="0" width="36" height="90" rx="4" fill="#1a1a2e" transform="rotate(-12, 18, 45)"/>
+    <rect x="44" y="0" width="36" height="90" rx="4" fill="#1a1a2e" transform="rotate(-12, 62, 45)"/>
+  </g>
+  <!-- Text "analog" -->
+  <text x="120" y="70" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="700" fill="#1a1a2e" letter-spacing="-1">analog</text>
+</svg>
