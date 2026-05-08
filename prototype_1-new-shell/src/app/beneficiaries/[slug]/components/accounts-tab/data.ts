@@ -1,0 +1,68 @@
+import { Payout } from "./columns";
+
+export const data: Payout[] = [
+  {
+    date: "2024-01-14",
+    contract: "Nike Endorsement Deal",
+    event: "allocation",
+    amount: 4500000,
+    balance_after: 4500000,
+    status: "posted",
+  },
+  {
+    date: "2024-01-19",
+    contract: "Nike Endorsement Deal",
+    event: "milestone-met",
+    amount: 1500000,
+    balance_after: 4500000,
+    status: "available",
+  },
+  {
+    date: "2024-01-24",
+    contract: null,
+    event: "transfer-out",
+    amount: -1500000,
+    balance_after: 3000000,
+    status: "completed",
+  },
+  {
+    date: "2024-02-14",
+    contract: "Nike Endorsement Deal",
+    event: "milestone-met",
+    amount: 1500000,
+    balance_after: 3000000,
+    status: "available",
+  },
+  {
+    date: "2024-02-19",
+    contract: null,
+    event: "transfer-out",
+    amount: -1500000,
+    balance_after: 1500000,
+    status: "completed",
+  },
+  {
+    date: "2024-02-29",
+    contract: "Local Restaurant Partnership",
+    event: "allocation",
+    amount: 1500000,
+    balance_after: 3000000,
+    status: "posted",
+  },
+  {
+    date: "2024-03-14",
+    contract: "Nike Endorsement Deal",
+    event: "milestone-met",
+    amount: 1500000,
+    balance_after: 3000000,
+    status: "available",
+  },
+  {
+    date: "2024-03-19",
+    contract: null,
+    event: "transfer-out",
+    amount: -750000,
+    balance_after: 2250000,
+    status: "pending",
+  },
+];
